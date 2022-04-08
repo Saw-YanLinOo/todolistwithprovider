@@ -5,7 +5,7 @@ class Task{
   final DateTime time;
   bool isDone;
 
-  Task({required this.id,required this.title,required this.description,required this.time,this.isDone = false});
+  Task({required this.id,required this.title,required this.description,required this.time,this.isDone = true});
 
   void toggleDone(){
     isDone = !isDone;
